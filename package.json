@@ -16,6 +16,7 @@
   },
   "husky": {
     "hooks": {
+      "pre-commit": "lint-staged",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
@@ -25,10 +26,15 @@
   "devDependencies": {
     "@commitlint/cli": "^15.0.0",
     "@commitlint/config-conventional": "^15.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.8.0",
+    "@typescript-eslint/parser": "^5.8.0",
     "commitizen": "^4.2.4",
     "conventional-changelog-cli": "^2.1.1",
     "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.5.0",
+    "eslint-plugin-react": "^7.27.1",
     "husky": "^7.0.4",
     "lerna": "^4.0.0"
-  }
+  },
+  "dependencies": {}
 }
