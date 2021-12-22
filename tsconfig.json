@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "es2020",
+    // ... rest of config
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  }
+}

@@ -33,5 +33,9 @@
       "error",
       "double"
     ]
-  }
+  },
+  "ignorePatterns": [
+    "node_modules/",
+    "build/"
+  ]
 }

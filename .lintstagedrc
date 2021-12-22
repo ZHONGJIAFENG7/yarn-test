@@ -1,0 +1,10 @@
+{
+  "*.{js,jsx,ts,tsx}": [
+    "npx lint-staged",
+    "prettier --write"
+  ],
+  "*.{less,scss}": "prettier --write",
+  "*.{js,css,json,md}": [
+    "prettier --write"
+  ]
+}
